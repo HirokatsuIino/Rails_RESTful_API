@@ -33,3 +33,13 @@ https://qiita.com/freelance_engineer/items/f7b9e6abd2248c5b3d0f
 
 ## インストールURL
 https://qiita.com/yoshito410kam/items/2dcb5ae0b69bd2d01120
+
+
+## MySQL インストール方法
+bundle config --local build.mysql2 "--with-ldflags=-L/usr/local/opt/openssl/lib --with-cppflags=-I/usr/local/opt/openssl/include"
+
+bundle install
+
+##参考URL
+https://qiita.com/akito19/items/e1dc54f907987e688cc0
+
