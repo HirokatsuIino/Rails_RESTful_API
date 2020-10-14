@@ -37,9 +37,9 @@ default: &default
   socket: /tmp/mysql.sock
 
 development:
-      <<: *default
-      database: test_database
+  <<: *default
+  database: develop_database
 
-##test:
-  ##  <<: *default
-  ##  database: アプリケーション名_test
+test:
+  <<: *default
+  database: test_database
